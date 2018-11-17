@@ -1,0 +1,11 @@
+web3j:
+  client-address: http://101.37.77.94:8545
+
+contract-service:
+  url: http://localhost:8090/contract/owner
+
+config:
+  wallet_path: /root/dev/wallet/
+  transaction_receipt_path: /root/dev/wallet/transactionreceipt/
+  third_party_api: https://api-ropsten.etherscan.io/api?module=account&action=txlist&address={}&sort=desc
+  third_party_price_api: https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,CNY

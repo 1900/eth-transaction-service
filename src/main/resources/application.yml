@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: transaction-service
+server:
+  port: ${PORT:8091}

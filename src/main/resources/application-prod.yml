@@ -1,0 +1,13 @@
+web3j:
+  client-address: https://mainnet.infura.io/v3/16c011d6e8af423fa5272ec16734d7d3
+  admin-client: true
+  httpTimeoutSeconds: 600
+
+contract-service:
+  url: http://localhost:8090/contract/owner
+
+config:
+  wallet_path: /root/dev/wallet/
+  transaction_receipt_path: /root/dev/wallet/transactionreceipt/
+  third_party_api: https://api.etherscan.io/api?module=account&action=txlist&address={}&sort=desc
+  third_party_price_api: https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,CNY
